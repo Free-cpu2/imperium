@@ -1,0 +1,2 @@
+Trading site!
+Not ended
