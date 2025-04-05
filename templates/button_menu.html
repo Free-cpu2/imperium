@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <link rel="stylesheet" href="/static/css/style1.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div>
+            <a href="/templates/index.html"><img src="/media/images/Logo.png" alt="" /></a>
+          </div>
+          <div class="header_div">
+            <div class="div-ul">
+              <label class="bar_menu" for="ul">
+                <img src="images/Menu 2.png\" alt="bar_menu" />
+              </label>
+              <input id="ul" style="display: none" type="checkbox" />
+              <ul>
+                <li><a href="">Пассивный заработок</a></li>
+                <li><a href="">Публичный трейдинг</a></li>
+                <li><a href="">Доходы и безопасность</a></li>
+                <li><a href="">Обратная связь</a></li>
+              </ul>
+            </div>
+            <button>
+              <a href="/templates/button_menu.html">
+                <img src="./images/Profile.png" alt="" />
+                Вход</a
+              >
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="background-img-button-menu">
+        <div class="container">
+          <div class="main-register">
+            <div class="register">
+              <div class="main-tex"><h2>Вход</h2></div>
+              <div class="information-register">
+                <div class="register-text"><p>Пассивный зароботок</p></div>
+                <div class="image-container">
+                  <img src="/media/images/info.png" alt="Image" />
+                  <div class="overlay-text">
+                    Возможность копировать реальные сделки успешных
+                    профессиональных трейдеров.
+                  </div>
+                </div>
+                <div class="register-text"><p>Пассивный зароботок</p></div>
+                <div class="image-container">
+                  <img src="/media/images/info.png" alt="Image" />
+                  <div class="overlay-text">
+                    Возможность копировать реальные сделки успешных
+                    профессиональных трейдеров.
+                  </div>
+                </div>
+              </div>
+              <div class="register-form"> 
+                <input id="email" autocomplete="email" placeholder="Email" type="email">
+            </div>
+            <div class="register-form">
+                <input id="password" autocomplete="current-password" type="password" placeholder="Пароль">
+            </div>
+            <div class="register-form"> 
+                <button type="submit" class="register-button" onclick="login()">Войти</button>
+            </div>
+            <p id="error-message" class="error"></p>
+      </section>
+      
+    </main>
+    <script src="/static/js/main.js">
+      
+  </script>
+  </body>
+</html>
